@@ -30,7 +30,7 @@ public class startup {
                 
                 "");
 
-        System.out.println(brusselSprouts);
+        
 
     }
 
