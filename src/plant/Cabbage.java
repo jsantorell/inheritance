@@ -16,8 +16,7 @@ public class Cabbage extends LeafyGreen {
     public Cabbage(double price, int months, String a) {//cabbage
         super(months, a);
         this.price = price;
-        System.out.print("Price: ");
-        System.out.println(price);
+        Reporter r = new Reporter(price);
     }
 
     public double getShape() {
