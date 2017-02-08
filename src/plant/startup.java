@@ -26,7 +26,11 @@ public class startup {
                 /*Select Months this plant takes to grow*/ 
                 4, 
                 
-                /*Season the month to start to harvest >>>>>>EXAMPLE: March-November<<<<<<*/ 
+                /*Season the month to start to harvest 
+                
+                >>>>>>EXAMPLE: March-November<<<<<<
+                
+                This can be left blank*/ 
                 
                 "");
 
