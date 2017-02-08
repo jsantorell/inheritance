@@ -11,7 +11,7 @@ package plant;
  */
 public class Reporter {
 
-    Reporter(int months, String a, String cuizineItIsUsedIn, Plant p) {
+    Reporter(int months, String a, String cuizineItIsUsedIn, Plant p) {//Leafy Green Report
         System.out.println("Grow time is: " + months + " months");
         System.out.print("Growing Season: ");
         p.GetTheSeasonAndOutput(a);
@@ -19,7 +19,7 @@ public class Reporter {
         System.out.println(cuizineItIsUsedIn);
     }
 
-    public Reporter(double price) {
+    public Reporter(double price) {//Cabbage Report
         
         System.out.print("Price: ");
         System.out.println(price);
