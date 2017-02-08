@@ -11,30 +11,26 @@ package plant;
  */
 public class LeafyGreen extends Plant {
    
-    private String color;
+    private String cuizineItISUsedIn;
 
     public LeafyGreen(int months, String a) {
         super(months);
-        this.color = "Green or red";
+        this.cuizineItISUsedIn = "Greek, Irish, Polish";
         Plant p = new Plant(months);
         int growTimeInMonths = getGrowTimeInMonths();
         growTimeInMonths = months;
-        System.out.println("Grow time is: " + growTimeInMonths + " months");
-        System.out.print("Growing Season: ");
-        p.season(a);
-        System.out.print("color: ");
-        System.out.println(color);
+        Reporter r = new Reporter(months, a, cuizineItISUsedIn, p);
         
     }
  
 
 
     public String getColor() {
-        return color;
+        return cuizineItISUsedIn;
     }
 
     public void setColor(String color) {
-        this.color = color;
+        this.cuizineItISUsedIn = color;
     }
     
 }

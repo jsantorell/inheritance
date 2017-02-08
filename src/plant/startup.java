@@ -17,11 +17,11 @@ public class startup {
     public static void main(String[] args) {
         // TODO code application logic here
 
-        Plant brusselSprouts = new cabbage(
+        Plant brusselSprouts = new Cabbage(
                 
                 /*Select the shape of the cabbage*/
                 
-                "Ball",
+                1.23,
                 
                 /*Select Months this plant takes to grow*/ 
                 4, 
@@ -32,7 +32,7 @@ public class startup {
                 
                 This can be left blank*/ 
                 
-                "");
+                "February-December");
 
         
 

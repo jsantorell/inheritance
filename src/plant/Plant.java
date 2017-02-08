@@ -13,7 +13,7 @@ public class Plant {
 
     private int growTimeInMonths;
 
-    public void season(String a) {
+    public void GetTheSeasonAndOutput(String a) {
         
         if(a == null || a.isEmpty()){
             a = "no season given";
