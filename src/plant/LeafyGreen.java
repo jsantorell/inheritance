@@ -11,10 +11,11 @@ package plant;
  */
 public class LeafyGreen extends Plant {
  Plant p = new Plant();
-    public LeafyGreen() {
+ 
+    public LeafyGreen(int months) {
        
         int growTimeInMonths = getGrowTimeInMonths();
-        growTimeInMonths = 3;
+        growTimeInMonths = months;
         System.out.println("Grow time is: " + growTimeInMonths + " months");
         System.out.print("Growing Season: ");
         p.season();

@@ -11,7 +11,12 @@ package plant;
  */
 public class cabbage extends LeafyGreen {
 
+    public cabbage(int months) {
+        super(months);
+    }
 
+    
+    
     @Override
     public String toString() {
         return "cabbage{" + "cabbage=" + p + '}';
