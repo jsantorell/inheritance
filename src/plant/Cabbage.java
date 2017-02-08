@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package plant;
+
+/**
+ *
+ * @author jerem
+ */
+public class Cabbage extends LeafyGreen {
+
+    private double price;
+
+    public Cabbage(double price, int months, String a) {//cabbage
+        super(months, a);
+        this.price = price;
+        System.out.print("Price: ");
+        System.out.println(price);
+    }
+
+    public double getShape() {
+        return price;
+    }
+
+    public void setShape(double shape) {
+        this.price = shape;
+    }
+
+    
+
+}
