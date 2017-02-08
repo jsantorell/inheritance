@@ -11,15 +11,23 @@ package plant;
  */
 public class cabbage extends LeafyGreen {
 
-    public cabbage(int months) {
-        super(months);
+    private String shape;
+
+    public cabbage(String shape, int months, String a) {
+        super(months, a);
+        this.shape = shape;
+        System.out.print("Cabbage Shape: ");
+        System.out.println(shape);
+    }
+
+    public String getShape() {
+        return shape;
+    }
+
+    public void setShape(String shape) {
+        this.shape = shape;
     }
 
     
-    
-    @Override
-    public String toString() {
-        return "cabbage{" + "cabbage=" + p + '}';
-    }
 
 }

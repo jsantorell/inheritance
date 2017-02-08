@@ -10,15 +10,31 @@ package plant;
  * @author jerem
  */
 public class LeafyGreen extends Plant {
- Plant p = new Plant();
- 
-    public LeafyGreen(int months) {
-       
+   
+    private String color;
+
+    public LeafyGreen(int months, String a) {
+        super(months);
+        this.color = "Green or red";
+        Plant p = new Plant(months);
         int growTimeInMonths = getGrowTimeInMonths();
         growTimeInMonths = months;
         System.out.println("Grow time is: " + growTimeInMonths + " months");
         System.out.print("Growing Season: ");
-        p.season();
+        p.season(a);
+        System.out.print("color: ");
+        System.out.println(color);
+        
+    }
+ 
+
+
+    public String getColor() {
+        return color;
     }
 
+    public void setColor(String color) {
+        this.color = color;
+    }
+    
 }

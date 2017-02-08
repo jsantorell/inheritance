@@ -13,10 +13,20 @@ public class Plant {
 
     private int growTimeInMonths;
 
-    public void season() {
-
-        System.out.println("March-November");
+    public void season(String a) {
+        
+        if(a == null || a.isEmpty()){
+            a = "no season given";
+            System.out.println(a);    
+                }else{
+        System.out.println(a);}
     }
+
+    public Plant(int growTimeInMonths) {
+        this.growTimeInMonths = growTimeInMonths;
+    }
+    
+    
 
     public int getGrowTimeInMonths() {
         return growTimeInMonths;

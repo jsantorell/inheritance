@@ -17,7 +17,18 @@ public class startup {
     public static void main(String[] args) {
         // TODO code application logic here
 
-        Plant brusselSprouts = new cabbage(/*Select Months*/ 4);
+        Plant brusselSprouts = new cabbage(
+                
+                /*Select the shape of the cabbage*/
+                
+                "Ball",
+                
+                /*Select Months this plant takes to grow*/ 
+                4, 
+                
+                /*Season the month to start to harvest >>>>>>EXAMPLE: March-November<<<<<<*/ 
+                
+                "");
 
         System.out.println(brusselSprouts);
 
