@@ -9,25 +9,12 @@ package plant;
  *
  * @author jerem
  */
-public class cabbage extends LeafyGreen{
-    
-    
+public class cabbage extends LeafyGreen {
 
-  
-        
-        LeafyGreen cabbage = new LeafyGreen();
-    
-    
-    
-    
-    LeafyGreen output(){
-        return cabbage;
-    }
 
     @Override
     public String toString() {
-        return "cabbage{" + "cabbage=" + cabbage + '}';
+        return "cabbage{" + "cabbage=" + p + '}';
     }
-    
-    
+
 }

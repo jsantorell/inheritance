@@ -9,15 +9,15 @@ package plant;
  *
  * @author jerem
  */
-public class LeafyGreen extends Plant{
-
+public class LeafyGreen extends Plant {
+ Plant p = new Plant();
     public LeafyGreen() {
-        
+       
         int growTimeInMonths = getGrowTimeInMonths();
         growTimeInMonths = 3;
-        System.out.println("Grow time is: " + growTimeInMonths);
+        System.out.println("Grow time is: " + growTimeInMonths + " months");
+        System.out.print("Growing Season: ");
+        p.season();
     }
-    
-    
-        
+
 }

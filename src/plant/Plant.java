@@ -11,12 +11,12 @@ package plant;
  */
 public class Plant {
 
-  private int growTimeInMonths;
-  
-  private void Season(){
-  
-      System.out.println("March-November");
-  }
+    private int growTimeInMonths;
+
+    public void season() {
+
+        System.out.println("March-November");
+    }
 
     public int getGrowTimeInMonths() {
         return growTimeInMonths;
@@ -25,6 +25,5 @@ public class Plant {
     public void setGrowTimeInMonths(int growTimeInMonths) {
         this.growTimeInMonths = growTimeInMonths;
     }
-  
-  
+
 }
