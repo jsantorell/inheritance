@@ -17,7 +17,7 @@ public class startup {
     public static void main(String[] args) {
         // TODO code application logic here
 
-        cabbage brusselSprouts = new cabbage();
+        Plant brusselSprouts = new cabbage(/*Select Months*/ 4);
 
         System.out.println(brusselSprouts);
 
