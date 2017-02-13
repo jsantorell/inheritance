@@ -10,7 +10,7 @@ package plant;
  * @author jerem
  */
 public class LeafyGreen extends Plant {
-   
+
     private String cuizineItISUsedIn;
 
     public LeafyGreen(int months, String a) {
@@ -20,10 +20,8 @@ public class LeafyGreen extends Plant {
         int growTimeInMonths = getGrowTimeInMonths();
         growTimeInMonths = months;
         Reporter r = new Reporter(months, a, cuizineItISUsedIn, p);
-        
-    }
- 
 
+    }
 
     public String getColor() {
         return cuizineItISUsedIn;
@@ -32,5 +30,5 @@ public class LeafyGreen extends Plant {
     public void setColor(String color) {
         this.cuizineItISUsedIn = color;
     }
-    
+
 }

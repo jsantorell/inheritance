@@ -20,11 +20,9 @@ public class Reporter {
     }
 
     public Reporter(double price) {//Cabbage Report
-        
+
         System.out.print("Price: ");
         System.out.println(price);
     }
-    
-    
 
 }
